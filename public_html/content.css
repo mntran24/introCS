@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald&family=Raleway:wght@400;700&display=swap');
+
+.page {
+  width:350px;
+  height:500px;
+  background-color: #D3D0CB;
+}
+
+#article_title {
+font-family: 'Anton', sans-serif;
+letter-spacing: 5px;
+font-size: 150%;
+color: #461220;
+}
+
+#intro {
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+line-height: 200%;
+}
+
+.question {
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+}
+
+.answer{
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+}
+
+#block_quote {
+font-family: 'Oswald', sans-serif;
+font-size: 120%;
+}

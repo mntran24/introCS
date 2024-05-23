@@ -1,0 +1,13 @@
+body {background-color: #98befa;
+    font-family: Garamond, serif;}
+    table, td {
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+    td {
+    padding: 7px;}
+    h1{
+    font-size:50px;
+    text-align: center;
+    padding:20px;
+    }
