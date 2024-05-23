@@ -1,0 +1,56 @@
+Mai Tran
+IntroCS pd04 sec04
+HW33 -- Gotta Save ‘em All
+2022-11-22
+time cost: 0.6
+consulted: Janet Tong
+
+Intro to NetLogo
+- Language: Logo
+- Used to teach kids how to program
+- Can be used to make scientific models
+
+Turtles and Patches and Links
+- 3 types of objects: turtles, patches, and links
+- Can change properties and command turtles to do certain things
+- Patches are the background, can be colored
+- Link: line between 2 turtles
+- Links move when turtles move
+
+Exercise 1A:
+observer> cro 1
+turtles> set color green
+turtles> set shape "fish"
+turtles> set size 8
+
+In properties panel:
+type "car" for shape
+type yellow for color
+type 5 for size
+
+observer> ca
+
+Exercise 2A:
+With Property Sheet:
+observer> cro 1
+
+Open model settings:
+min-pxcor: -16
+max-pxcor: 16
+min-pycor: -16
+max-pycor: 16
+
+Open property sheet for turtle 0:
+xcor: 0
+ycor: 0
+Change xcor to 8 and ycor to -8, heading to 225
+
+With Command Center:
+observer> cro 1
+turtles> set xcor 8
+turtles> set ycor -8
+turtles> set heading 225
+
+2B:
+turtles> setxy 8 -8
+// faster way to set coordinates
